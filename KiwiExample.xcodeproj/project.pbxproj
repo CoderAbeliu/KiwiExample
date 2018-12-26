@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB2BDE221CBF7A600236308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE121CBF7A600236308 /* AppDelegate.m */; };
+		1AB2BDE521CBF7A600236308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE421CBF7A600236308 /* ViewController.m */; };
+		1AB2BDE821CBF7A600236308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE621CBF7A600236308 /* Main.storyboard */; };
+		1AB2BDEA21CBF7A800236308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE921CBF7A800236308 /* Assets.xcassets */; };
+		1AB2BDED21CBF7A800236308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2BDEB21CBF7A800236308 /* LaunchScreen.storyboard */; };
+		1AB2BDF021CBF7A800236308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDEF21CBF7A800236308 /* main.m */; };
+		1AB2BDFA21CBF7A900236308 /* KiwiExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDF921CBF7A900236308 /* KiwiExampleTests.m */; };
+		1AB2BE0521CBF7A900236308 /* KiwiExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BE0421CBF7A900236308 /* KiwiExampleUITests.m */; };
+		1AB2BE1B21CD2D1000236308 /* SimpleTestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BE1A21CD2D1000236308 /* SimpleTestSpec.m */; };
+		1AB2BE2A21CE91FD00236308 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BE2921CE91FD00236308 /* SecondViewController.m */; };
+		1AB2BE2C21CE949100236308 /* Common_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB2BE2B21CE949100236308 /* Common_lib.framework */; };
+		1AB2BE2F21CE94AA00236308 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BE2E21CE94AA00236308 /* ThirdViewController.m */; };
+		D22A0C5BBDEEC91D4C09BFAC /* libPods-KiwiExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2076DB4D887A281E2FB95A /* libPods-KiwiExampleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB2BDF621CBF7A900236308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB2BDD521CBF7A600236308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB2BDDC21CBF7A600236308;
+			remoteInfo = KiwiExample;
+		};
+		1AB2BE0121CBF7A900236308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB2BDD521CBF7A600236308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB2BDDC21CBF7A600236308;
+			remoteInfo = KiwiExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB2BDDD21CBF7A600236308 /* KiwiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2BDE021CBF7A600236308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AB2BDE121CBF7A600236308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AB2BDE321CBF7A600236308 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AB2BDE421CBF7A600236308 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AB2BDE721CBF7A600236308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB2BDE921CBF7A800236308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB2BDEC21CBF7A800236308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB2BDEE21CBF7A800236308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB2BDEF21CBF7A800236308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB2BDF521CBF7A900236308 /* KiwiExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2BDF921CBF7A900236308 /* KiwiExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiExampleTests.m; sourceTree = "<group>"; };
+		1AB2BDFB21CBF7A900236308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB2BE0021CBF7A900236308 /* KiwiExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2BE0421CBF7A900236308 /* KiwiExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiExampleUITests.m; sourceTree = "<group>"; };
+		1AB2BE0621CBF7A900236308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB2BE1A21CD2D1000236308 /* SimpleTestSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTestSpec.m; sourceTree = "<group>"; };
+		1AB2BE2821CE91FD00236308 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1AB2BE2921CE91FD00236308 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1AB2BE2B21CE949100236308 /* Common_lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common_lib.framework; sourceTree = "<group>"; };
+		1AB2BE2D21CE94AA00236308 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1AB2BE2E21CE94AA00236308 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2FBEEEADD0A755E947FFCF53 /* Pods-KiwiExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiExampleTests/Pods-KiwiExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		478D501DD2759D88BAF912EA /* Pods-KiwiExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiExampleTests/Pods-KiwiExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F2076DB4D887A281E2FB95A /* libPods-KiwiExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB38737FADFD43563F3AD0A /* libPods-KiwiExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB2BDDA21CBF7A600236308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB2BE2C21CE949100236308 /* Common_lib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDF221CBF7A900236308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22A0C5BBDEEC91D4C09BFAC /* libPods-KiwiExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDFD21CBF7A900236308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB2BDD421CBF7A600236308 = {
+			isa = PBXGroup;
+			children = (
+				1AB2BDDF21CBF7A600236308 /* KiwiExample */,
+				1AB2BDF821CBF7A900236308 /* KiwiExampleTests */,
+				1AB2BE0321CBF7A900236308 /* KiwiExampleUITests */,
+				1AB2BDDE21CBF7A600236308 /* Products */,
+				F3E548916D81ADACE401BFFB /* Pods */,
+				3204912B1A0CCFC8CD82B094 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB2BDDE21CBF7A600236308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2BDDD21CBF7A600236308 /* KiwiExample.app */,
+				1AB2BDF521CBF7A900236308 /* KiwiExampleTests.xctest */,
+				1AB2BE0021CBF7A900236308 /* KiwiExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB2BDDF21CBF7A600236308 /* KiwiExample */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2BDE021CBF7A600236308 /* AppDelegate.h */,
+				1AB2BDE121CBF7A600236308 /* AppDelegate.m */,
+				1AB2BDE321CBF7A600236308 /* ViewController.h */,
+				1AB2BDE421CBF7A600236308 /* ViewController.m */,
+				1AB2BE2821CE91FD00236308 /* SecondViewController.h */,
+				1AB2BE2921CE91FD00236308 /* SecondViewController.m */,
+				1AB2BE2D21CE94AA00236308 /* ThirdViewController.h */,
+				1AB2BE2E21CE94AA00236308 /* ThirdViewController.m */,
+				1AB2BDE621CBF7A600236308 /* Main.storyboard */,
+				1AB2BDE921CBF7A800236308 /* Assets.xcassets */,
+				1AB2BDEB21CBF7A800236308 /* LaunchScreen.storyboard */,
+				1AB2BDEE21CBF7A800236308 /* Info.plist */,
+				1AB2BDEF21CBF7A800236308 /* main.m */,
+			);
+			path = KiwiExample;
+			sourceTree = "<group>";
+		};
+		1AB2BDF821CBF7A900236308 /* KiwiExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2BDF921CBF7A900236308 /* KiwiExampleTests.m */,
+				1AB2BE1A21CD2D1000236308 /* SimpleTestSpec.m */,
+				1AB2BDFB21CBF7A900236308 /* Info.plist */,
+			);
+			path = KiwiExampleTests;
+			sourceTree = "<group>";
+		};
+		1AB2BE0321CBF7A900236308 /* KiwiExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2BE0421CBF7A900236308 /* KiwiExampleUITests.m */,
+				1AB2BE0621CBF7A900236308 /* Info.plist */,
+			);
+			path = KiwiExampleUITests;
+			sourceTree = "<group>";
+		};
+		3204912B1A0CCFC8CD82B094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2BE2B21CE949100236308 /* Common_lib.framework */,
+				9AB38737FADFD43563F3AD0A /* libPods-KiwiExample.a */,
+				8F2076DB4D887A281E2FB95A /* libPods-KiwiExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E548916D81ADACE401BFFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEEEADD0A755E947FFCF53 /* Pods-KiwiExampleTests.debug.xcconfig */,
+				478D501DD2759D88BAF912EA /* Pods-KiwiExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB2BDDC21CBF7A600236308 /* KiwiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2BE0921CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExample" */;
+			buildPhases = (
+				1AB2BDD921CBF7A600236308 /* Sources */,
+				1AB2BDDA21CBF7A600236308 /* Frameworks */,
+				1AB2BDDB21CBF7A600236308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiExample;
+			productName = KiwiExample;
+			productReference = 1AB2BDDD21CBF7A600236308 /* KiwiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB2BDF421CBF7A900236308 /* KiwiExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2BE0C21CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExampleTests" */;
+			buildPhases = (
+				A8F3B773FEC02CC67E6370BB /* [CP] Check Pods Manifest.lock */,
+				1AB2BDF121CBF7A900236308 /* Sources */,
+				1AB2BDF221CBF7A900236308 /* Frameworks */,
+				1AB2BDF321CBF7A900236308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB2BDF721CBF7A900236308 /* PBXTargetDependency */,
+			);
+			name = KiwiExampleTests;
+			productName = KiwiExampleTests;
+			productReference = 1AB2BDF521CBF7A900236308 /* KiwiExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB2BDFF21CBF7A900236308 /* KiwiExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2BE0F21CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExampleUITests" */;
+			buildPhases = (
+				1AB2BDFC21CBF7A900236308 /* Sources */,
+				1AB2BDFD21CBF7A900236308 /* Frameworks */,
+				1AB2BDFE21CBF7A900236308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB2BE0221CBF7A900236308 /* PBXTargetDependency */,
+			);
+			name = KiwiExampleUITests;
+			productName = KiwiExampleUITests;
+			productReference = 1AB2BE0021CBF7A900236308 /* KiwiExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB2BDD521CBF7A600236308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Abe_liu;
+				TargetAttributes = {
+					1AB2BDDC21CBF7A600236308 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1AB2BDF421CBF7A900236308 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1AB2BDDC21CBF7A600236308;
+					};
+					1AB2BDFF21CBF7A900236308 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1AB2BDDC21CBF7A600236308;
+					};
+				};
+			};
+			buildConfigurationList = 1AB2BDD821CBF7A600236308 /* Build configuration list for PBXProject "KiwiExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB2BDD421CBF7A600236308;
+			productRefGroup = 1AB2BDDE21CBF7A600236308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB2BDDC21CBF7A600236308 /* KiwiExample */,
+				1AB2BDF421CBF7A900236308 /* KiwiExampleTests */,
+				1AB2BDFF21CBF7A900236308 /* KiwiExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB2BDDB21CBF7A600236308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB2BDED21CBF7A800236308 /* LaunchScreen.storyboard in Resources */,
+				1AB2BDEA21CBF7A800236308 /* Assets.xcassets in Resources */,
+				1AB2BDE821CBF7A600236308 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDF321CBF7A900236308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDFE21CBF7A900236308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8F3B773FEC02CC67E6370BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiwiExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB2BDD921CBF7A600236308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB2BE2A21CE91FD00236308 /* SecondViewController.m in Sources */,
+				1AB2BE2F21CE94AA00236308 /* ThirdViewController.m in Sources */,
+				1AB2BDE521CBF7A600236308 /* ViewController.m in Sources */,
+				1AB2BDF021CBF7A800236308 /* main.m in Sources */,
+				1AB2BDE221CBF7A600236308 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDF121CBF7A900236308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB2BE1B21CD2D1000236308 /* SimpleTestSpec.m in Sources */,
+				1AB2BDFA21CBF7A900236308 /* KiwiExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2BDFC21CBF7A900236308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB2BE0521CBF7A900236308 /* KiwiExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB2BDF721CBF7A900236308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB2BDDC21CBF7A600236308 /* KiwiExample */;
+			targetProxy = 1AB2BDF621CBF7A900236308 /* PBXContainerItemProxy */;
+		};
+		1AB2BE0221CBF7A900236308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB2BDDC21CBF7A600236308 /* KiwiExample */;
+			targetProxy = 1AB2BE0121CBF7A900236308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB2BDE621CBF7A600236308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB2BDE721CBF7A600236308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB2BDEB21CBF7A800236308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB2BDEC21CBF7A800236308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB2BE0721CBF7A900236308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AB2BE0821CBF7A900236308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB2BE0A21CBF7A900236308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KiwiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB2BE0B21CBF7A900236308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KiwiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB2BE0D21CBF7A900236308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBEEEADD0A755E947FFCF53 /* Pods-KiwiExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				INFOPLIST_FILE = KiwiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiwiExample.app/KiwiExample";
+			};
+			name = Debug;
+		};
+		1AB2BE0E21CBF7A900236308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478D501DD2759D88BAF912EA /* Pods-KiwiExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				INFOPLIST_FILE = KiwiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiwiExample.app/KiwiExample";
+			};
+			name = Release;
+		};
+		1AB2BE1021CBF7A900236308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				INFOPLIST_FILE = KiwiExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiwiExample;
+			};
+			name = Debug;
+		};
+		1AB2BE1121CBF7A900236308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DL4U9QFS;
+				INFOPLIST_FILE = KiwiExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abe.KiwiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiwiExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB2BDD821CBF7A600236308 /* Build configuration list for PBXProject "KiwiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2BE0721CBF7A900236308 /* Debug */,
+				1AB2BE0821CBF7A900236308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2BE0921CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2BE0A21CBF7A900236308 /* Debug */,
+				1AB2BE0B21CBF7A900236308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2BE0C21CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2BE0D21CBF7A900236308 /* Debug */,
+				1AB2BE0E21CBF7A900236308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2BE0F21CBF7A900236308 /* Build configuration list for PBXNativeTarget "KiwiExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2BE1021CBF7A900236308 /* Debug */,
+				1AB2BE1121CBF7A900236308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB2BDD521CBF7A600236308 /* Project object */;
+}
