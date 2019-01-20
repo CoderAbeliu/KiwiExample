@@ -20,6 +20,12 @@ describe(@"SimpleTest", ^{
     afterAll(^{
         vc = nil;
     });
+    beforeEach(^{
+        
+    });
+    afterEach(^{
+        
+    });
     context(@"test ViewController message addA method", ^{
         it(@"the method should return 3", ^{
             [[theValue([vc addA:1 andB:2]) should]equal:theValue(3)];

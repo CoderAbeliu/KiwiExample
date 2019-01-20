@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A078EDF21F48C9F00DA2213 /* ContactEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078EDE21F48C9F00DA2213 /* ContactEncrypt.m */; };
+		1A078EE121F48D8E00DA2213 /* ContactEncryptSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078EE021F48D8E00DA2213 /* ContactEncryptSpec.m */; };
 		1AB2BDE221CBF7A600236308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE121CBF7A600236308 /* AppDelegate.m */; };
 		1AB2BDE521CBF7A600236308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE421CBF7A600236308 /* ViewController.m */; };
 		1AB2BDE821CBF7A600236308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2BDE621CBF7A600236308 /* Main.storyboard */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A078EDD21F48C9F00DA2213 /* ContactEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactEncrypt.h; sourceTree = "<group>"; };
+		1A078EDE21F48C9F00DA2213 /* ContactEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactEncrypt.m; sourceTree = "<group>"; };
+		1A078EE021F48D8E00DA2213 /* ContactEncryptSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactEncryptSpec.m; sourceTree = "<group>"; };
 		1AB2BDDD21CBF7A600236308 /* KiwiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB2BDE021CBF7A600236308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AB2BDE121CBF7A600236308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +133,8 @@
 				1AB2BE2921CE91FD00236308 /* SecondViewController.m */,
 				1AB2BE2D21CE94AA00236308 /* ThirdViewController.h */,
 				1AB2BE2E21CE94AA00236308 /* ThirdViewController.m */,
+				1A078EDD21F48C9F00DA2213 /* ContactEncrypt.h */,
+				1A078EDE21F48C9F00DA2213 /* ContactEncrypt.m */,
 				1AB2BDE621CBF7A600236308 /* Main.storyboard */,
 				1AB2BDE921CBF7A800236308 /* Assets.xcassets */,
 				1AB2BDEB21CBF7A800236308 /* LaunchScreen.storyboard */,
@@ -142,6 +149,7 @@
 			children = (
 				1AB2BDF921CBF7A900236308 /* KiwiExampleTests.m */,
 				1AB2BE1A21CD2D1000236308 /* SimpleTestSpec.m */,
+				1A078EE021F48D8E00DA2213 /* ContactEncryptSpec.m */,
 				1AB2BDFB21CBF7A900236308 /* Info.plist */,
 			);
 			path = KiwiExampleTests;
@@ -328,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB2BE2A21CE91FD00236308 /* SecondViewController.m in Sources */,
+				1A078EDF21F48C9F00DA2213 /* ContactEncrypt.m in Sources */,
 				1AB2BE2F21CE94AA00236308 /* ThirdViewController.m in Sources */,
 				1AB2BDE521CBF7A600236308 /* ViewController.m in Sources */,
 				1AB2BDF021CBF7A800236308 /* main.m in Sources */,
@@ -341,6 +350,7 @@
 			files = (
 				1AB2BE1B21CD2D1000236308 /* SimpleTestSpec.m in Sources */,
 				1AB2BDFA21CBF7A900236308 /* KiwiExampleTests.m in Sources */,
+				1A078EE121F48D8E00DA2213 /* ContactEncryptSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
