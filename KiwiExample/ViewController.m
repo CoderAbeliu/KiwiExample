@@ -28,8 +28,7 @@
     [self.navigationController pushViewController:secondVC animated:YES];
 }
 
-- (NSInteger)addA:(NSInteger)a andB:(NSInteger)b
-{
+- (NSInteger)addA:(NSInteger)a andB:(NSInteger)b {
     return a+b;
 }
 

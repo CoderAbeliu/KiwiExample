@@ -10,8 +10,8 @@
 #import <CommonCrypto/CommonCrypto.h>
 
 
-#define CC_SHA512_DIGEST_LENGTH     64          /* digest length in bytes */
-typedef uint32_t CC_LONG;       /* 32 bit unsigned integer */
+#define CC_SHA512_DIGEST_LENGTH     64
+typedef uint32_t CC_LONG;
 extern unsigned char *CC_SHA512(const void *data, CC_LONG len, unsigned char *md)
 __OSX_AVAILABLE_STARTING(__MAC_10_4, __IPHONE_2_0);
 
@@ -23,8 +23,9 @@ __OSX_AVAILABLE_STARTING(__MAC_10_4, __IPHONE_2_0);
     uint8_t digest[CC_SHA512_DIGEST_LENGTH];
     CC_SHA512(data.bytes, (CC_LONG) data.length, digest);
     NSMutableString *output = [NSMutableString stringWithCapacity:CC_SHA512_DIGEST_LENGTH * 2];
-    for (int i = 0; i < CC_SHA512_DIGEST_LENGTH; i++)
-        [output appendFormat:@"%02x", digest[i]];
+    for (int i = 0; i < CC_SHA512_DIGEST_LENGTH; i++) {
+       [output appendFormat:@"%02x", digest[i]];
+    }
     return output;
 }
 
@@ -51,6 +52,7 @@ __OSX_AVAILABLE_STARTING(__MAC_10_4, __IPHONE_2_0);
     return finalPhoneString;
 }
 
+// 电话对应国家编号 如中国：+0086
 + (NSDictionary *)callingCodeMap {
     return @{
              @"AD": @"00376",

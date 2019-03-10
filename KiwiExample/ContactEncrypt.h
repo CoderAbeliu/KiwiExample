@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ContactEncrypt : NSObject
 
+/**
+ 加密字符串方法
+
+ @param source 目标字符串
+ @return 加密后的字符串
+ */
 + (NSString *)createSHA512WithUTF8Encoding:(NSString *)source;
 
 + (NSString *)getModifiedPhoneNumber:(NSString *)phoneNumberString;
